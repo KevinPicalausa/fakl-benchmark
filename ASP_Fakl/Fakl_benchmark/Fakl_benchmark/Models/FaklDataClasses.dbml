@@ -1,0 +1,180 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="Fakl_benchmarking" Class="FaklDataClassesDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="WebSettings" ConnectionString="Data Source=localhost;Initial Catalog=Fakl_benchmarking;Integrated Security=True" SettingsObjectName="System.Configuration.ConfigurationManager.ConnectionStrings" SettingsPropertyName="Fakl_benchmarkingConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.answers" Member="answers">
+    <Type Name="answer">
+      <Column Name="id" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="value" Type="System.Int64" DbType="BigInt NOT NULL" CanBeNull="false" />
+      <Column Name="question_id" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="yearreport_id" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Association Name="yearreport_answer" Member="yearreport" ThisKey="yearreport_id" OtherKey="id" Type="yearreport" IsForeignKey="true" />
+      <Association Name="question_answer" Member="question" ThisKey="question_id" OtherKey="id" Type="question" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.yearreports" Member="yearreports">
+    <Type Name="yearreport">
+      <Column Name="id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Year" Type="System.String" DbType="NChar(4) NOT NULL" CanBeNull="false" />
+      <Column Name="municipality_id" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="building_id" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="statuscode_id" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Association Name="yearreport_answer" Member="answers" ThisKey="id" OtherKey="yearreport_id" Type="answer" />
+      <Association Name="yearreport_yearreport_cost" Member="yearreport_costs" ThisKey="id" OtherKey="yearreport_id" Type="yearreport_cost" />
+      <Association Name="municipality_yearreport" Member="municipality" ThisKey="municipality_id" OtherKey="id" Type="municipality" IsForeignKey="true" />
+      <Association Name="statuscode_yearreport" Member="statuscode" ThisKey="statuscode_id" OtherKey="id" Type="statuscode" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.base_divisors" Member="base_divisors">
+    <Type Name="base_divisor">
+      <Column Name="id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="name" Type="System.String" DbType="NChar(25) NOT NULL" CanBeNull="false" />
+      <Column Name="tooltip" Type="System.String" DbType="NChar(150)" CanBeNull="true" />
+      <Column Name="disabled" Type="System.Byte" DbType="TinyInt NOT NULL" CanBeNull="false" />
+      <Association Name="base_divisor_building_has_basedivisor" Member="building_has_basedivisors" ThisKey="id" OtherKey="base_divisor_id" Type="building_has_basedivisor" />
+      <Association Name="base_divisor_categories_has_basedivisor" Member="categories_has_basedivisors" ThisKey="id" OtherKey="base_divisor_id" Type="categories_has_basedivisor" />
+    </Type>
+  </Table>
+  <Table Name="dbo.building_has_basedivisor" Member="building_has_basedivisors">
+    <Type Name="building_has_basedivisor">
+      <Column Name="base_divisor_id" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="building_id" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="value" Type="System.Int64" DbType="BigInt NOT NULL" CanBeNull="false" />
+      <Association Name="base_divisor_building_has_basedivisor" Member="base_divisor" ThisKey="base_divisor_id" OtherKey="id" Type="base_divisor" IsForeignKey="true" />
+      <Association Name="building_building_has_basedivisor" Member="building" ThisKey="building_id" OtherKey="id" Type="building" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.buildings" Member="buildings">
+    <Type Name="building">
+      <Column Name="id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="name" Type="System.String" DbType="NChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="category_id" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Association Name="building_building_has_basedivisor" Member="building_has_basedivisors" ThisKey="id" OtherKey="building_id" Type="building_has_basedivisor" />
+      <Association Name="category_building" Member="category" ThisKey="category_id" OtherKey="id" Type="category" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.categories" Member="categories">
+    <Type Name="category">
+      <Column Name="id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="name" Type="System.String" DbType="NChar(25) NOT NULL" CanBeNull="false" />
+      <Column Name="tooltip" Type="System.String" DbType="NChar(150)" CanBeNull="true" />
+      <Column Name="disabled" Type="System.Byte" DbType="TinyInt NOT NULL" CanBeNull="false" />
+      <Association Name="category_building" Member="buildings" ThisKey="id" OtherKey="category_id" Type="building" />
+      <Association Name="category_categories_has_basedivisor" Member="categories_has_basedivisors" ThisKey="id" OtherKey="category_id" Type="categories_has_basedivisor" />
+      <Association Name="category_question" Member="questions" ThisKey="id" OtherKey="category_id" Type="question" />
+    </Type>
+  </Table>
+  <Table Name="dbo.categories_has_basedivisors" Member="categories_has_basedivisors">
+    <Type Name="categories_has_basedivisor">
+      <Column Name="base_divisor_id" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="category_id" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Association Name="base_divisor_categories_has_basedivisor" Member="base_divisor" ThisKey="base_divisor_id" OtherKey="id" Type="base_divisor" IsForeignKey="true" />
+      <Association Name="category_categories_has_basedivisor" Member="category" ThisKey="category_id" OtherKey="id" Type="category" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.costs" Member="costs">
+    <Type Name="cost">
+      <Column Name="id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="name" Type="System.String" DbType="NChar(150) NOT NULL" CanBeNull="false" />
+      <Column Name="tooltip" Type="System.String" DbType="NChar(150)" CanBeNull="true" />
+      <Column Name="mainrubrick_id" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="subrubrick_id" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Association Name="cost_yearreport_cost" Member="yearreport_costs" ThisKey="id" OtherKey="cost_id" Type="yearreport_cost" />
+      <Association Name="mainrubric_cost" Member="mainrubric" ThisKey="mainrubrick_id" OtherKey="id" Type="mainrubric" IsForeignKey="true" />
+      <Association Name="subrubric_cost" Member="subrubric" ThisKey="subrubrick_id" OtherKey="id" Type="subrubric" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.mainrubrics" Member="mainrubrics">
+    <Type Name="mainrubric">
+      <Column Name="id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="name" Type="System.String" DbType="NChar(50) NOT NULL" CanBeNull="false" />
+      <Association Name="mainrubric_cost" Member="costs" ThisKey="id" OtherKey="mainrubrick_id" Type="cost" />
+    </Type>
+  </Table>
+  <Table Name="dbo.municipalities" Member="municipalities">
+    <Type Name="municipality">
+      <Column Name="id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="name" Type="System.String" DbType="NChar(100) NOT NULL" CanBeNull="false" />
+      <Column Name="address" Type="System.String" DbType="NChar(100)" CanBeNull="true" />
+      <Column Name="zip" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="phone" Type="System.String" DbType="NChar(15)" CanBeNull="true" />
+      <Column Name="email" Type="System.String" DbType="NChar(50)" CanBeNull="true" />
+      <Association Name="municipality_yearreport" Member="yearreports" ThisKey="id" OtherKey="municipality_id" Type="yearreport" />
+      <Association Name="municipality_municipality_has_user" Member="municipality_has_users" ThisKey="id" OtherKey="mun_id" Type="municipality_has_user" />
+    </Type>
+  </Table>
+  <Table Name="dbo.municipality_has_users" Member="municipality_has_users">
+    <Type Name="municipality_has_user">
+      <Column Name="user_id" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="mun_id" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Association Name="municipality_municipality_has_user" Member="municipality" ThisKey="mun_id" OtherKey="id" Type="municipality" IsForeignKey="true" />
+      <Association Name="user_municipality_has_user" Member="user" ThisKey="user_id" OtherKey="id" Type="user" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.newsletters" Member="newsletters">
+    <Type Name="newsletter">
+      <Column Name="user_id" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="email" Type="System.String" DbType="NChar(50) NOT NULL" CanBeNull="false" />
+    </Type>
+  </Table>
+  <Table Name="dbo.questions" Member="questions">
+    <Type Name="question">
+      <Column Name="id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="text" Type="System.String" DbType="NChar(100) NOT NULL" CanBeNull="false" />
+      <Column Name="tooltip" Type="System.String" DbType="NChar(150)" CanBeNull="true" />
+      <Column Name="values_type" Type="System.String" DbType="NChar(20) NOT NULL" CanBeNull="false" />
+      <Column Name="disabled" Type="System.Byte" DbType="TinyInt NOT NULL" CanBeNull="false" />
+      <Column Name="category_id" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Association Name="question_answer" Member="answers" ThisKey="id" OtherKey="question_id" Type="answer" />
+      <Association Name="category_question" Member="category" ThisKey="category_id" OtherKey="id" Type="category" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.statuscodes" Member="statuscodes">
+    <Type Name="statuscode">
+      <Column Name="id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="name" Type="System.String" DbType="NChar(50) NOT NULL" CanBeNull="false" />
+      <Association Name="statuscode_yearreport" Member="yearreports" ThisKey="id" OtherKey="statuscode_id" Type="yearreport" />
+    </Type>
+  </Table>
+  <Table Name="dbo.subrubrics" Member="subrubrics">
+    <Type Name="subrubric">
+      <Column Name="id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="name" Type="System.String" DbType="NChar(50) NOT NULL" CanBeNull="false" />
+      <Association Name="subrubric_cost" Member="costs" ThisKey="id" OtherKey="subrubrick_id" Type="cost" />
+    </Type>
+  </Table>
+  <Table Name="dbo.user_acceptances" Member="user_acceptances">
+    <Type Name="user_acceptance">
+      <Column Name="user_id" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="token" Type="System.String" DbType="NChar(50) NOT NULL" CanBeNull="false" />
+    </Type>
+  </Table>
+  <Table Name="dbo.usergroups" Member="usergroups">
+    <Type Name="usergroup">
+      <Column Name="id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="name" Type="System.String" DbType="NChar(25) NOT NULL" CanBeNull="false" />
+      <Association Name="usergroup_user" Member="users" ThisKey="id" OtherKey="usergroup_id" Type="user" />
+    </Type>
+  </Table>
+  <Table Name="dbo.users" Member="users">
+    <Type Name="user">
+      <Column Name="id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="name" Type="System.String" DbType="NChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="email" Type="System.String" DbType="NChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="password" Type="System.String" DbType="NChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="reg_date" Type="System.DateTime" DbType="DateTime NOT NULL" CanBeNull="false" />
+      <Column Name="accept_date" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="usergroup_id" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Association Name="user_municipality_has_user" Member="municipality_has_users" ThisKey="id" OtherKey="user_id" Type="municipality_has_user" />
+      <Association Name="usergroup_user" Member="usergroup" ThisKey="usergroup_id" OtherKey="id" Type="usergroup" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.yearreport_costs" Member="yearreport_costs">
+    <Type Name="yearreport_cost">
+      <Column Name="id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="cost_id" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="value" Type="System.Int64" DbType="BigInt" CanBeNull="true" />
+      <Column Name="yearreport_id" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Association Name="cost_yearreport_cost" Member="cost" ThisKey="cost_id" OtherKey="id" Type="cost" IsForeignKey="true" />
+      <Association Name="yearreport_yearreport_cost" Member="yearreport" ThisKey="yearreport_id" OtherKey="id" Type="yearreport" IsForeignKey="true" />
+    </Type>
+  </Table>
+</Database>
