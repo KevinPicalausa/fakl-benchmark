@@ -1,5 +1,5 @@
-﻿<?xml version="1.0" encoding="utf-8"?><Database Name="Fakl_benchmarking" Class="FaklDataClassesDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
-  <Connection Mode="WebSettings" ConnectionString="Data Source=localhost;Initial Catalog=Fakl_benchmarking;Integrated Security=True" SettingsObjectName="System.Configuration.ConfigurationManager.ConnectionStrings" SettingsPropertyName="Fakl_benchmarkingConnectionString" Provider="System.Data.SqlClient" />
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="ID146074_fakl" Class="FaklDataClassesDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="WebSettings" ConnectionString="Data Source=mssql005.hosting.combell.com;Initial Catalog=ID146074_fakl;Persist Security Info=True;User ID=ID146074_fakl" SettingsObjectName="System.Configuration.ConfigurationManager.ConnectionStrings" SettingsPropertyName="ID146074_faklConnectionString" Provider="System.Data.SqlClient" />
   <Table Name="dbo.answers" Member="answers">
     <Type Name="answer">
       <Column Name="id" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />

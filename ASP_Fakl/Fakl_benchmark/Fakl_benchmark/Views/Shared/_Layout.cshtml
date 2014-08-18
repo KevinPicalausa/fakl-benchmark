@@ -14,7 +14,7 @@
             <h2>baseline</h2>
             @Html.Partial("_LoginPartial")
             <nav id="mainmenu">
-                <h2 class="structural">Navigation</h2>
+                <h2 class="structural">navigation</h2>
                 <ul>
                     <li><a href="#" class="active">Home</a></li>
                     <li><a href="#">Benchmarken</a></li>
@@ -23,28 +23,26 @@
                     <li><a href="#">Contact</a></li>
                 </ul>
             </nav>
+            @Html.Partial("_Breadcrumb")
         </div>
     </header>
-
-    <section id="content">
+    <section id="content" class="clearfix">
         <div class="wrapper clearfix">
             @RenderBody()
         </div>
     </section>
     <footer>
         <div class="wrapper clearfix">
-            <section>
-                <h2 class ="structural">Footer</h2>
+
+            <section class="clearfix">
+                <h2 class="structural">Footer</h2>
                 <ul>
                     <li><a href="#">Disclaimer</a></li>
                     <li><a href="#">Algemene voorwaarden</a></li>
                     <li><a href="#">Sitemap</a></li>
                 </ul>
             </section>
-
-          
-
-            <section id="copyright">
+            <section id="copyright" class="clearfix">
                 <h2><a href="#" class="ir">Fakl-benchmark</a></h2>
                 <p>
                     &copy; 2014 Fakl-benchmark.be <a href="#">Fakl-benchmark</a> and is being powered by <a href="#">Combell</a>.

@@ -2,237 +2,237 @@
 <ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 25.375" name="FaklDataClasses">
   <DataContextMoniker Name="/FaklDataClassesDataContext" />
   <nestedChildShapes>
-    <classShape Id="015e50b2-30fd-4b88-89a1-33fe71811af1" absoluteBounds="6.25, 3.75, 2, 1.5785953776041666">
+    <classShape Id="5339635e-75e3-4751-9b8a-3fd8964264d4" absoluteBounds="6.25, 3.75, 2, 1.5785953776041666">
       <DataClassMoniker Name="/FaklDataClassesDataContext/answer" />
       <nestedChildShapes>
-        <elementListCompartment Id="462222de-3754-42e4-ae8e-a9e2196d65de" absoluteBounds="6.265, 4.21, 1.9700000000000002, 1.0185953776041665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+        <elementListCompartment Id="43d9a509-0da6-4b0c-b0f8-51a00e51a6d9" absoluteBounds="6.265, 4.21, 1.9700000000000002, 1.0185953776041665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
       </nestedChildShapes>
     </classShape>
-    <classShape Id="71ced5e8-f5f6-4833-b1c0-36f8e72d8367" absoluteBounds="3.5, 3.625, 2, 1.7708968098958327">
+    <classShape Id="e7d97f82-adae-4432-9c8e-82724151a173" absoluteBounds="3.5, 3.625, 2, 1.7708968098958327">
       <DataClassMoniker Name="/FaklDataClassesDataContext/yearreport" />
       <nestedChildShapes>
-        <elementListCompartment Id="22ed746f-f7d4-451e-a791-6d0da9a9c7f5" absoluteBounds="3.515, 4.085, 1.9700000000000002, 1.2108968098958333" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+        <elementListCompartment Id="b72532ef-1aea-47ee-8f44-25889176bcdb" absoluteBounds="3.515, 4.085, 1.9700000000000002, 1.2108968098958333" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
       </nestedChildShapes>
     </classShape>
-    <classShape Id="be21d597-b04d-4a24-876a-9da479320711" absoluteBounds="3.75, 23.5, 2, 1.5785953776041666">
+    <classShape Id="a3be04e7-7ed0-4809-8241-b900faaec370" absoluteBounds="3.75, 23.5, 2, 1.5785953776041666">
       <DataClassMoniker Name="/FaklDataClassesDataContext/base_divisor" />
       <nestedChildShapes>
-        <elementListCompartment Id="25140f91-3925-41d1-9591-70efa035ffc8" absoluteBounds="3.765, 23.96, 1.9700000000000002, 1.0185953776041665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+        <elementListCompartment Id="2ef80999-6f13-4088-82ec-85585b4ee1d8" absoluteBounds="3.765, 23.96, 1.9700000000000002, 1.0185953776041665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
       </nestedChildShapes>
     </classShape>
-    <classShape Id="ebf2eefc-a9df-43ff-b47a-809cc770eb04" absoluteBounds="6.25, 17.5, 2, 1.3862939453124987">
+    <classShape Id="d9383558-b910-4042-ba05-ba9b1ab4d176" absoluteBounds="6.25, 17.5, 2, 1.3862939453124987">
       <DataClassMoniker Name="/FaklDataClassesDataContext/building_has_basedivisor" />
       <nestedChildShapes>
-        <elementListCompartment Id="fcbd8dcf-c833-4f96-b043-77612a23fd85" absoluteBounds="6.265, 17.96, 1.9700000000000002, 0.8262939453125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+        <elementListCompartment Id="aefbe886-2084-46be-802e-6dee69640df5" absoluteBounds="6.265, 17.96, 1.9700000000000002, 0.8262939453125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
       </nestedChildShapes>
     </classShape>
-    <classShape Id="ed32469a-985e-4835-a469-7210920aa19c" absoluteBounds="3.5, 17.5, 2, 1.3862939453124987">
+    <classShape Id="1ebde137-09fd-4cfc-8ac0-88c0896f92bf" absoluteBounds="3.5, 17.5, 2, 1.3862939453124987">
       <DataClassMoniker Name="/FaklDataClassesDataContext/building" />
       <nestedChildShapes>
-        <elementListCompartment Id="04eda151-e3d1-4c6a-8420-919422f9b033" absoluteBounds="3.515, 17.96, 1.9700000000000002, 0.8262939453125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+        <elementListCompartment Id="a42bf58e-945a-47d4-a6f0-33904dcd68fe" absoluteBounds="3.515, 17.96, 1.9700000000000002, 0.8262939453125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
       </nestedChildShapes>
     </classShape>
-    <classShape Id="9a19bea9-1a45-48a2-9fb5-58cd6abbaaa1" absoluteBounds="0.75, 14.5, 2, 1.5785953776041666">
+    <classShape Id="b7b43601-fb9a-4001-8028-d7c49567f296" absoluteBounds="0.75, 14.5, 2, 1.5785953776041666">
       <DataClassMoniker Name="/FaklDataClassesDataContext/category" />
       <nestedChildShapes>
-        <elementListCompartment Id="911c74a1-9abf-4a62-bc5a-1e49b6a8c4b1" absoluteBounds="0.765, 14.96, 1.9700000000000002, 1.0185953776041665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+        <elementListCompartment Id="e4614157-1897-417d-a7f1-87a6d7a0aac1" absoluteBounds="0.765, 14.96, 1.9700000000000002, 1.0185953776041665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
       </nestedChildShapes>
     </classShape>
-    <classShape Id="ffef34a9-9ab9-4859-bf3a-1c42d1889df3" absoluteBounds="6.5, 14.625, 2, 1.1939925130208344">
+    <classShape Id="3986a983-24c8-4512-a908-64465516484a" absoluteBounds="6.5, 14.625, 2, 1.1939925130208344">
       <DataClassMoniker Name="/FaklDataClassesDataContext/categories_has_basedivisor" />
       <nestedChildShapes>
-        <elementListCompartment Id="0f4764ae-e2bb-4048-8d46-e7cb7ec8c9f9" absoluteBounds="6.515, 15.085, 1.9700000000000002, 0.63399251302083326" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+        <elementListCompartment Id="4d42ca5a-a5d6-41ae-a8f9-56c5cf123ed0" absoluteBounds="6.515, 15.085, 1.9700000000000002, 0.63399251302083326" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
       </nestedChildShapes>
     </classShape>
-    <classShape Id="204cc9b8-82ef-4709-8849-dab688cb8a06" absoluteBounds="3.5, 10.875, 2, 1.7708968098958344">
+    <classShape Id="2eb725c4-806d-42f8-a012-f8c270019034" absoluteBounds="3.5, 10.875, 2, 1.7708968098958344">
       <DataClassMoniker Name="/FaklDataClassesDataContext/cost" />
       <nestedChildShapes>
-        <elementListCompartment Id="455b61ce-a1fe-4fae-8d49-d655f32514e2" absoluteBounds="3.515, 11.335, 1.9700000000000002, 1.2108968098958333" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+        <elementListCompartment Id="3f0f0045-f73b-4f9b-bdba-1df3668ccd72" absoluteBounds="3.515, 11.335, 1.9700000000000002, 1.2108968098958333" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
       </nestedChildShapes>
     </classShape>
-    <classShape Id="a6901099-9927-4b75-8ecb-71e3801a724e" absoluteBounds="0.75, 10.125, 2, 1.1939925130208344">
+    <classShape Id="6319d402-1a01-429e-b1bb-a2e7464cd982" absoluteBounds="0.75, 10.125, 2, 1.1939925130208344">
       <DataClassMoniker Name="/FaklDataClassesDataContext/mainrubric" />
       <nestedChildShapes>
-        <elementListCompartment Id="20c756fa-24a8-4348-ac13-68f50b9d5557" absoluteBounds="0.765, 10.585, 1.9700000000000002, 0.63399251302083326" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+        <elementListCompartment Id="1f5f1154-0e8b-485a-86b4-e09913d2a663" absoluteBounds="0.765, 10.585, 1.9700000000000002, 0.63399251302083326" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
       </nestedChildShapes>
     </classShape>
-    <classShape Id="6aaea1db-9626-40fb-b4b9-7f26256077fd" absoluteBounds="0.75, 6.5, 2, 1.9631982421875014">
+    <classShape Id="32d0845c-f250-47c2-a310-63c6b60092ac" absoluteBounds="0.75, 6.5, 2, 1.9631982421875014">
       <DataClassMoniker Name="/FaklDataClassesDataContext/municipality" />
       <nestedChildShapes>
-        <elementListCompartment Id="2521ad25-5bf1-4312-a782-9281f7874ff7" absoluteBounds="0.765, 6.96, 1.9700000000000002, 1.4031982421875" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+        <elementListCompartment Id="511e7d58-05ef-40fa-bed4-54015fe37f95" absoluteBounds="0.765, 6.96, 1.9700000000000002, 1.4031982421875" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
       </nestedChildShapes>
     </classShape>
-    <classShape Id="b23e7ac1-4959-41a5-a69a-61b0338ad8af" absoluteBounds="3.5, 7, 2, 1.1939925130208344">
+    <classShape Id="804e29e7-ae2e-4c05-8af5-3bde04273bfb" absoluteBounds="3.5, 7, 2, 1.1939925130208344">
       <DataClassMoniker Name="/FaklDataClassesDataContext/municipality_has_user" />
       <nestedChildShapes>
-        <elementListCompartment Id="f42c740f-6f5c-4b39-9197-3ac056d34921" absoluteBounds="3.515, 7.46, 1.9700000000000002, 0.63399251302083326" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+        <elementListCompartment Id="aeda95d7-91d3-47ec-a7b6-bf39a3691daf" absoluteBounds="3.515, 7.46, 1.9700000000000002, 0.63399251302083326" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
       </nestedChildShapes>
     </classShape>
-    <classShape Id="687268e5-7bd0-4a22-b325-e796f88a9bdd" absoluteBounds="6.75, 6.25, 2, 1.1939925130208344">
+    <classShape Id="099f848a-ec4d-44c7-9751-9197cf7a779c" absoluteBounds="6.75, 6.25, 2, 1.1939925130208344">
       <DataClassMoniker Name="/FaklDataClassesDataContext/newsletter" />
       <nestedChildShapes>
-        <elementListCompartment Id="ec9c651a-ba89-4329-bad7-15335ef03460" absoluteBounds="6.765, 6.71, 1.9700000000000002, 0.63399251302083326" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+        <elementListCompartment Id="12596b2c-4a24-49ea-bb35-3d892f500358" absoluteBounds="6.765, 6.71, 1.9700000000000002, 0.63399251302083326" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
       </nestedChildShapes>
     </classShape>
-    <classShape Id="63c26872-36b1-4298-83bc-e5aa9ba8960b" absoluteBounds="3.5, 14.25, 2, 1.9631982421875005">
+    <classShape Id="34006437-9612-4a51-91d1-4711028e0868" absoluteBounds="3.5, 14.25, 2, 1.9631982421875005">
       <DataClassMoniker Name="/FaklDataClassesDataContext/question" />
       <nestedChildShapes>
-        <elementListCompartment Id="cdb98594-dba3-421c-a8da-a8fd5973b054" absoluteBounds="3.515, 14.71, 1.9700000000000002, 1.4031982421875" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+        <elementListCompartment Id="5ab1f362-fdd2-40f6-aa4e-9c520cbf6ad1" absoluteBounds="3.515, 14.71, 1.9700000000000002, 1.4031982421875" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
       </nestedChildShapes>
     </classShape>
-    <classShape Id="923846dc-f2ff-4fd4-8e22-e794988842e9" absoluteBounds="0.75, 4.5, 2, 1.1939925130208335">
+    <classShape Id="1eb49622-085b-445e-a5c6-d8e484e5c08b" absoluteBounds="0.75, 4.5, 2, 1.1939925130208335">
       <DataClassMoniker Name="/FaklDataClassesDataContext/statuscode" />
       <nestedChildShapes>
-        <elementListCompartment Id="4049c633-4f99-4dca-8fd9-1e7ce78f65e8" absoluteBounds="0.765, 4.96, 1.9700000000000002, 0.63399251302083326" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+        <elementListCompartment Id="81f9660f-2cf2-4f29-976e-1b71999f7954" absoluteBounds="0.765, 4.96, 1.9700000000000002, 0.63399251302083326" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
       </nestedChildShapes>
     </classShape>
-    <classShape Id="ca67a58e-503b-4ea6-83eb-2f2209a89c2f" absoluteBounds="0.75, 12.125, 2, 1.1939925130208344">
+    <classShape Id="caa1478f-8ead-4131-991d-144d554d38d9" absoluteBounds="0.75, 12.125, 2, 1.1939925130208344">
       <DataClassMoniker Name="/FaklDataClassesDataContext/subrubric" />
       <nestedChildShapes>
-        <elementListCompartment Id="65336e65-9e8f-418e-a03c-0fc21851d0c5" absoluteBounds="0.765, 12.585, 1.9700000000000002, 0.63399251302083326" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+        <elementListCompartment Id="9e5eae38-acc2-46ab-8544-4a1c6f6da6f0" absoluteBounds="0.765, 12.585, 1.9700000000000002, 0.63399251302083326" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
       </nestedChildShapes>
     </classShape>
-    <classShape Id="29b04e73-8225-454c-8c70-5e1ea744a453" absoluteBounds="6.75, 8.25, 2, 1.1939925130208344">
+    <classShape Id="b7f1cc3e-a1d0-489c-90bd-b63a6b9e5149" absoluteBounds="6.75, 8.25, 2, 1.1939925130208344">
       <DataClassMoniker Name="/FaklDataClassesDataContext/user_acceptance" />
       <nestedChildShapes>
-        <elementListCompartment Id="ac762e72-7c75-4170-8110-9a016c3cb1a6" absoluteBounds="6.765, 8.71, 1.9700000000000002, 0.63399251302083326" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+        <elementListCompartment Id="4b9bf7cd-a1c0-4bd9-ade8-42d798c6dd31" absoluteBounds="6.765, 8.71, 1.9700000000000002, 0.63399251302083326" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
       </nestedChildShapes>
     </classShape>
-    <classShape Id="e0887ed7-ffa8-4635-a8d8-b4868189f237" absoluteBounds="1.5, 21, 2, 1.1939925130208309">
+    <classShape Id="38cda0f6-4a76-44aa-b544-4d7e7faed3c4" absoluteBounds="1.5, 21, 2, 1.1939925130208309">
       <DataClassMoniker Name="/FaklDataClassesDataContext/usergroup" />
       <nestedChildShapes>
-        <elementListCompartment Id="9d5d14a8-c969-411f-a8b5-3b2809232d1f" absoluteBounds="1.5150000000000001, 21.46, 1.9700000000000002, 0.63399251302083326" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+        <elementListCompartment Id="ef92d86b-e67a-46c0-87b2-ed132e89dfb5" absoluteBounds="1.5150000000000001, 21.46, 1.9700000000000002, 0.63399251302083326" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
       </nestedChildShapes>
     </classShape>
-    <classShape Id="f5a05db1-afcf-4186-b594-6ca59396a55c" absoluteBounds="0.75, 17.5, 2, 2.1554996744791666">
+    <classShape Id="6acdaf83-4e66-4377-b514-7c73db790280" absoluteBounds="0.75, 17.5, 2, 2.1554996744791666">
       <DataClassMoniker Name="/FaklDataClassesDataContext/user" />
       <nestedChildShapes>
-        <elementListCompartment Id="aba9e962-d8e2-418c-b53e-85260837ace4" absoluteBounds="0.765, 17.96, 1.9700000000000002, 1.5954996744791665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+        <elementListCompartment Id="f207cd1b-a739-4b71-9be1-3ae3e11a93c0" absoluteBounds="0.765, 17.96, 1.9700000000000002, 1.5954996744791665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
       </nestedChildShapes>
     </classShape>
-    <classShape Id="df2be6b8-6c59-4ca7-baf7-2ffb969a5340" absoluteBounds="6.25, 0.75, 2, 1.5785953776041666">
+    <classShape Id="c80aeed8-c648-4ff1-9266-224f6e849d69" absoluteBounds="6.25, 0.75, 2, 1.5785953776041666">
       <DataClassMoniker Name="/FaklDataClassesDataContext/yearreport_cost" />
       <nestedChildShapes>
-        <elementListCompartment Id="bba9ebbd-6991-44d8-a34e-4d8884ee3653" absoluteBounds="6.265, 1.21, 1.9700000000000002, 1.0185953776041665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+        <elementListCompartment Id="c23938b8-3cc6-4bdc-9b71-f04d2f01a4a8" absoluteBounds="6.265, 1.21, 1.9700000000000002, 1.0185953776041665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
       </nestedChildShapes>
     </classShape>
     <associationConnector edgePoints="[(5.5 : 4.53929768880208); (5.79166666666667 : 4.53929768880208 : JumpStart); (5.95833333333333 : 4.53929768880208 : JumpEnd); (6.25 : 4.53929768880208)]" fixedFrom="Algorithm" fixedTo="Algorithm">
       <AssociationMoniker Name="/FaklDataClassesDataContext/yearreport/yearreport_answer" />
       <nodes>
-        <classShapeMoniker Id="71ced5e8-f5f6-4833-b1c0-36f8e72d8367" />
-        <classShapeMoniker Id="015e50b2-30fd-4b88-89a1-33fe71811af1" />
+        <classShapeMoniker Id="e7d97f82-adae-4432-9c8e-82724151a173" />
+        <classShapeMoniker Id="5339635e-75e3-4751-9b8a-3fd8964264d4" />
       </nodes>
     </associationConnector>
     <associationConnector edgePoints="[(5.75 : 24.2892976888021); (7.25 : 24.2892976888021); (7.25 : 18.8862939453125)]" fixedFrom="Algorithm" fixedTo="Algorithm">
       <AssociationMoniker Name="/FaklDataClassesDataContext/base_divisor/base_divisor_building_has_basedivisor" />
       <nodes>
-        <classShapeMoniker Id="be21d597-b04d-4a24-876a-9da479320711" />
-        <classShapeMoniker Id="ebf2eefc-a9df-43ff-b47a-809cc770eb04" />
+        <classShapeMoniker Id="a3be04e7-7ed0-4809-8241-b900faaec370" />
+        <classShapeMoniker Id="d9383558-b910-4042-ba05-ba9b1ab4d176" />
       </nodes>
     </associationConnector>
     <associationConnector edgePoints="[(5.5 : 18.1931469726563); (6.25 : 18.1931469726563)]" fixedFrom="Algorithm" fixedTo="Algorithm">
       <AssociationMoniker Name="/FaklDataClassesDataContext/building/building_building_has_basedivisor" />
       <nodes>
-        <classShapeMoniker Id="ed32469a-985e-4835-a469-7210920aa19c" />
-        <classShapeMoniker Id="ebf2eefc-a9df-43ff-b47a-809cc770eb04" />
+        <classShapeMoniker Id="1ebde137-09fd-4cfc-8ac0-88c0896f92bf" />
+        <classShapeMoniker Id="d9383558-b910-4042-ba05-ba9b1ab4d176" />
       </nodes>
     </associationConnector>
     <associationConnector edgePoints="[(2.75 : 16.0785953776042); (3.125 : 16.4535953776042); (3.125 : 18.1931469726563); (3.5 : 18.1931469726563)]" fixedFrom="NotFixed" fixedTo="Algorithm">
       <AssociationMoniker Name="/FaklDataClassesDataContext/category/category_building" />
       <nodes>
-        <classShapeMoniker Id="9a19bea9-1a45-48a2-9fb5-58cd6abbaaa1" />
-        <classShapeMoniker Id="ed32469a-985e-4835-a469-7210920aa19c" />
+        <classShapeMoniker Id="b7b43601-fb9a-4001-8028-d7c49567f296" />
+        <classShapeMoniker Id="1ebde137-09fd-4cfc-8ac0-88c0896f92bf" />
       </nodes>
     </associationConnector>
     <associationConnector edgePoints="[(5.75 : 23.863396344401); (7.16666666666667 : 23.863396344401 : JumpStart); (7.33333333333333 : 23.863396344401 : JumpEnd); (8.40625 : 23.863396344401); (8.40625 : 15.8189925130208)]" fixedFrom="Algorithm" fixedTo="Algorithm">
       <AssociationMoniker Name="/FaklDataClassesDataContext/base_divisor/base_divisor_categories_has_basedivisor" />
       <nodes>
-        <classShapeMoniker Id="be21d597-b04d-4a24-876a-9da479320711" />
-        <classShapeMoniker Id="ffef34a9-9ab9-4859-bf3a-1c42d1889df3" />
+        <classShapeMoniker Id="a3be04e7-7ed0-4809-8241-b900faaec370" />
+        <classShapeMoniker Id="3986a983-24c8-4512-a908-64465516484a" />
       </nodes>
     </associationConnector>
     <associationConnector edgePoints="[(1.75 : 14.5); (1.75 : 14); (3.22916666666667 : 14 : JumpStart); (3.39583333333333 : 14 : JumpEnd); (6.125 : 14); (6.125 : 15.2219962565104); (6.26041666666667 : 15.2219962565104 : JumpStart); (6.42708333333333 : 15.2219962565104 : JumpEnd); (6.5 : 15.2219962565104)]" fixedFrom="Algorithm" fixedTo="Algorithm">
       <AssociationMoniker Name="/FaklDataClassesDataContext/category/category_categories_has_basedivisor" />
       <nodes>
-        <classShapeMoniker Id="9a19bea9-1a45-48a2-9fb5-58cd6abbaaa1" />
-        <classShapeMoniker Id="ffef34a9-9ab9-4859-bf3a-1c42d1889df3" />
+        <classShapeMoniker Id="b7b43601-fb9a-4001-8028-d7c49567f296" />
+        <classShapeMoniker Id="3986a983-24c8-4512-a908-64465516484a" />
       </nodes>
     </associationConnector>
     <associationConnector edgePoints="[(2.75 : 11.0969962565104); (3.22916666666667 : 11.0969962565104 : JumpStart); (3.39583333333333 : 11.0969962565104 : JumpEnd); (3.5 : 11.0969962565104)]" fixedFrom="Algorithm" fixedTo="Algorithm">
       <AssociationMoniker Name="/FaklDataClassesDataContext/mainrubric/mainrubric_cost" />
       <nodes>
-        <classShapeMoniker Id="a6901099-9927-4b75-8ecb-71e3801a724e" />
-        <classShapeMoniker Id="204cc9b8-82ef-4709-8849-dab688cb8a06" />
+        <classShapeMoniker Id="6319d402-1a01-429e-b1bb-a2e7464cd982" />
+        <classShapeMoniker Id="2eb725c4-806d-42f8-a012-f8c270019034" />
       </nodes>
     </associationConnector>
     <associationConnector edgePoints="[(2.75 : 6.5); (3.125 : 6.125); (3.125 : 4.51044840494792); (3.5 : 4.51044840494792)]" fixedFrom="NotFixed" fixedTo="Algorithm">
       <AssociationMoniker Name="/FaklDataClassesDataContext/municipality/municipality_yearreport" />
       <nodes>
-        <classShapeMoniker Id="6aaea1db-9626-40fb-b4b9-7f26256077fd" />
-        <classShapeMoniker Id="71ced5e8-f5f6-4833-b1c0-36f8e72d8367" />
+        <classShapeMoniker Id="32d0845c-f250-47c2-a310-63c6b60092ac" />
+        <classShapeMoniker Id="e7d97f82-adae-4432-9c8e-82724151a173" />
       </nodes>
     </associationConnector>
     <associationConnector edgePoints="[(2.75 : 7.59699625651042); (3.5 : 7.59699625651042)]" fixedFrom="Algorithm" fixedTo="Algorithm">
       <AssociationMoniker Name="/FaklDataClassesDataContext/municipality/municipality_municipality_has_user" />
       <nodes>
-        <classShapeMoniker Id="6aaea1db-9626-40fb-b4b9-7f26256077fd" />
-        <classShapeMoniker Id="b23e7ac1-4959-41a5-a69a-61b0338ad8af" />
+        <classShapeMoniker Id="32d0845c-f250-47c2-a310-63c6b60092ac" />
+        <classShapeMoniker Id="804e29e7-ae2e-4c05-8af5-3bde04273bfb" />
       </nodes>
     </associationConnector>
     <associationConnector edgePoints="[(5.5 : 16.0473453776042); (6.34375 : 16.0473453776042); (6.34375 : 5.32859537760417)]" fixedFrom="Algorithm" fixedTo="Algorithm">
       <AssociationMoniker Name="/FaklDataClassesDataContext/question/question_answer" />
       <nodes>
-        <classShapeMoniker Id="63c26872-36b1-4298-83bc-e5aa9ba8960b" />
-        <classShapeMoniker Id="015e50b2-30fd-4b88-89a1-33fe71811af1" />
+        <classShapeMoniker Id="34006437-9612-4a51-91d1-4711028e0868" />
+        <classShapeMoniker Id="5339635e-75e3-4751-9b8a-3fd8964264d4" />
       </nodes>
     </associationConnector>
     <associationConnector edgePoints="[(2.75 : 15.2580451888021); (3.22916666666667 : 15.2580451888021 : JumpStart); (3.39583333333333 : 15.2580451888021 : JumpEnd); (3.5 : 15.2580451888021)]" fixedFrom="Algorithm" fixedTo="Algorithm">
       <AssociationMoniker Name="/FaklDataClassesDataContext/category/category_question" />
       <nodes>
-        <classShapeMoniker Id="9a19bea9-1a45-48a2-9fb5-58cd6abbaaa1" />
-        <classShapeMoniker Id="63c26872-36b1-4298-83bc-e5aa9ba8960b" />
+        <classShapeMoniker Id="b7b43601-fb9a-4001-8028-d7c49567f296" />
+        <classShapeMoniker Id="34006437-9612-4a51-91d1-4711028e0868" />
       </nodes>
     </associationConnector>
     <associationConnector edgePoints="[(2.75 : 5.01567260742187); (3.04166666666667 : 5.01567260742187 : JumpStart); (3.20833333333333 : 5.01567260742187 : JumpEnd); (3.5 : 5.01567260742187)]" fixedFrom="Algorithm" fixedTo="Algorithm">
       <AssociationMoniker Name="/FaklDataClassesDataContext/statuscode/statuscode_yearreport" />
       <nodes>
-        <classShapeMoniker Id="923846dc-f2ff-4fd4-8e22-e794988842e9" />
-        <classShapeMoniker Id="71ced5e8-f5f6-4833-b1c0-36f8e72d8367" />
+        <classShapeMoniker Id="1eb49622-085b-445e-a5c6-d8e484e5c08b" />
+        <classShapeMoniker Id="e7d97f82-adae-4432-9c8e-82724151a173" />
       </nodes>
     </associationConnector>
     <associationConnector edgePoints="[(2.75 : 12.3854484049479); (3.22916666666667 : 12.3854484049479 : JumpStart); (3.39583333333333 : 12.3854484049479 : JumpEnd); (3.5 : 12.3854484049479)]" fixedFrom="Algorithm" fixedTo="Algorithm">
       <AssociationMoniker Name="/FaklDataClassesDataContext/subrubric/subrubric_cost" />
       <nodes>
-        <classShapeMoniker Id="ca67a58e-503b-4ea6-83eb-2f2209a89c2f" />
-        <classShapeMoniker Id="204cc9b8-82ef-4709-8849-dab688cb8a06" />
+        <classShapeMoniker Id="caa1478f-8ead-4131-991d-144d554d38d9" />
+        <classShapeMoniker Id="2eb725c4-806d-42f8-a012-f8c270019034" />
       </nodes>
     </associationConnector>
     <associationConnector edgePoints="[(2.75 : 17.5615374615385); (3.06607443490112 : 17.2454630266373 : JumpStart); (3.18392556509888 : 17.1276118964396 : JumpEnd); (3.3125 : 16.9990374615385); (3.3125 : 7.92674638476563); (3.5 : 7.92674638476563)]" fixedFrom="NotFixed" fixedTo="Algorithm">
       <AssociationMoniker Name="/FaklDataClassesDataContext/user/user_municipality_has_user" />
       <nodes>
-        <classShapeMoniker Id="f5a05db1-afcf-4186-b594-6ca59396a55c" />
-        <classShapeMoniker Id="b23e7ac1-4959-41a5-a69a-61b0338ad8af" />
+        <classShapeMoniker Id="6acdaf83-4e66-4377-b514-7c73db790280" />
+        <classShapeMoniker Id="804e29e7-ae2e-4c05-8af5-3bde04273bfb" />
       </nodes>
     </associationConnector>
     <associationConnector edgePoints="[(2.125 : 21); (2.125 : 19.6554996744792)]" fixedFrom="Algorithm" fixedTo="Algorithm">
       <AssociationMoniker Name="/FaklDataClassesDataContext/usergroup/usergroup_user" />
       <nodes>
-        <classShapeMoniker Id="e0887ed7-ffa8-4635-a8d8-b4868189f237" />
-        <classShapeMoniker Id="f5a05db1-afcf-4186-b594-6ca59396a55c" />
+        <classShapeMoniker Id="38cda0f6-4a76-44aa-b544-4d7e7faed3c4" />
+        <classShapeMoniker Id="6acdaf83-4e66-4377-b514-7c73db790280" />
       </nodes>
     </associationConnector>
     <associationConnector edgePoints="[(5.5 : 10.8763612283153); (5.875 : 10.5013612283153); (5.875 : 1.53929768880208); (6.25 : 1.53929768880208)]" fixedFrom="NotFixed" fixedTo="Algorithm">
       <AssociationMoniker Name="/FaklDataClassesDataContext/cost/cost_yearreport_cost" />
       <nodes>
-        <classShapeMoniker Id="204cc9b8-82ef-4709-8849-dab688cb8a06" />
-        <classShapeMoniker Id="df2be6b8-6c59-4ca7-baf7-2ffb969a5340" />
+        <classShapeMoniker Id="2eb725c4-806d-42f8-a012-f8c270019034" />
+        <classShapeMoniker Id="c80aeed8-c648-4ff1-9266-224f6e849d69" />
       </nodes>
     </associationConnector>
     <associationConnector edgePoints="[(4.5 : 3.625); (4.5 : 1.96519903320312); (5.79166666666667 : 1.96519903320312 : JumpStart); (5.95833333333333 : 1.96519903320312 : JumpEnd); (6.25 : 1.96519903320312)]" fixedFrom="Algorithm" fixedTo="Algorithm">
       <AssociationMoniker Name="/FaklDataClassesDataContext/yearreport/yearreport_yearreport_cost" />
       <nodes>
-        <classShapeMoniker Id="71ced5e8-f5f6-4833-b1c0-36f8e72d8367" />
-        <classShapeMoniker Id="df2be6b8-6c59-4ca7-baf7-2ffb969a5340" />
+        <classShapeMoniker Id="e7d97f82-adae-4432-9c8e-82724151a173" />
+        <classShapeMoniker Id="c80aeed8-c648-4ff1-9266-224f6e849d69" />
       </nodes>
     </associationConnector>
   </nestedChildShapes>

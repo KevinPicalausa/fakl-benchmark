@@ -22,7 +22,7 @@ namespace Fakl_benchmark.Models
 	using System;
 	
 	
-	[global::System.Data.Linq.Mapping.DatabaseAttribute(Name="Fakl_benchmarking")]
+	[global::System.Data.Linq.Mapping.DatabaseAttribute(Name="ID146074_fakl")]
 	public partial class FaklDataClassesDataContext : System.Data.Linq.DataContext
 	{
 		
@@ -81,7 +81,7 @@ namespace Fakl_benchmark.Models
     #endregion
 		
 		public FaklDataClassesDataContext() : 
-				base(global::System.Configuration.ConfigurationManager.ConnectionStrings["Fakl_benchmarkingConnectionString"].ConnectionString, mappingSource)
+				base(global::System.Configuration.ConfigurationManager.ConnectionStrings["ID146074_faklConnectionString"].ConnectionString, mappingSource)
 		{
 			OnCreated();
 		}

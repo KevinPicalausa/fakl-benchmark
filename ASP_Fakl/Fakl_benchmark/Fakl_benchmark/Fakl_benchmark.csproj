@@ -15,7 +15,7 @@
     <AssemblyName>Fakl_benchmark</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <MvcBuildViews>false</MvcBuildViews>
-    <UseIISExpress>false</UseIISExpress>
+    <UseIISExpress>true</UseIISExpress>
     <IISExpressSSLPort />
     <IISExpressAnonymousAuthentication />
     <IISExpressWindowsAuthentication />
@@ -250,10 +250,12 @@
     <Content Include="Views\Account\profile.cshtml" />
     <Content Include="Views\Account\profile_edit.cshtml" />
     <Content Include="Views\Account\profile_newsletter.cshtml" />
-    <Content Include="Views\Admin\usergroups.cshtml" />
+    <Content Include="Views\Admin\users.cshtml" />
     <Content Include="Views\Admin\newsletter.cshtml" />
     <Content Include="Views\Admin\yearreports.cshtml" />
     <Content Include="Views\Benchmarking\benchmarking.cshtml" />
+    <Content Include="Views\Admin\homepage.cshtml" />
+    <Content Include="Views\Shared\_Breadcrumb.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
@@ -285,9 +287,9 @@
         <WebProjectProperties>
           <UseIIS>True</UseIIS>
           <AutoAssignPort>True</AutoAssignPort>
-          <DevelopmentServerPort>51108</DevelopmentServerPort>
+          <DevelopmentServerPort>0</DevelopmentServerPort>
           <DevelopmentServerVPath>/</DevelopmentServerVPath>
-          <IISUrl>http://localhost/Fakl_benchmark</IISUrl>
+          <IISUrl>http://localhost:62227/</IISUrl>
           <NTLMAuthentication>False</NTLMAuthentication>
           <UseCustomServer>False</UseCustomServer>
           <CustomServerUrl>
